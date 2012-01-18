@@ -44,5 +44,13 @@ Name to be determined. Yaml? package.cfg?::
     python: pypy-1.6
     module: requests >= 0.9
     module: clint
+    github-module: kennethreitz/requests ref
+
+``pyenv freeze`` would result in the following ``requirements.txt``::
+
+    certifi==0.0.6
+    clint==0.3.1
+    requests==0.9.1
+
 
 
