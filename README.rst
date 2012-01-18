@@ -48,9 +48,16 @@ Name to be determined. Yaml? package.cfg?::
 
 ``pyenv freeze`` would result in the following ``requirements.txt``::
 
+    # Python: pypy-1.6
+
+    # From module: requests >= 0.9
     certifi==0.0.6
-    clint==0.3.1
     requests==0.9.1
+
+    # From module: clint
+    clint==0.3.1
+
+
 
 
 
