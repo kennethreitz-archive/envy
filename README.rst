@@ -29,6 +29,9 @@ Possible Usage
 ``pyenv activate``:
     Activates the virtualenv. Useful shortcut.
 
+``pyenv freeze``
+    Generates `requirements.txt`, based on `Envfile`.
+
 ``pyenv clean``
     Removes dependency cruft from a virtualenv.
 
@@ -40,6 +43,11 @@ Possible Usage
 Example Envfile
 ---------------
 
-Name to be determined::
+Name to be determined. Yaml? package.cfg?::
 
     # stuff
+    python: pypy-1.6
+    module: requests >= 0.9
+    module: clint
+
+
