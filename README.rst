@@ -14,8 +14,8 @@ Future:
 Purpose
 -------
 
-- Standarization. Virtualenvs always in `.venv` (or similar), `requirements.txt` for dependencies. Establish a way to define which version of Python is required for an application.
-- `requirements.txt` generation.
+- Standarization. Virtualenvs always in ``.venv`` (or similar), ``requirements.txt`` for dependencies. Establish a way to define which version of Python is required for an application.
+- ``requirements.txt`` generation.
 - Standardized virtualenv locations remove alot of boilerplate documentation.
 - Add another version of Python. Not a big deal.
 - Rebuild virtualenvs all the time. Not a big deal.
@@ -23,20 +23,15 @@ Purpose
 Possible Usage
 --------------
 
-``pyenv install``:
-    Recursively finds `Envfile`, and bootstraps virtualenv in `.venv` relative to that. If Python defined isn't available, uses `python-build` to provide that as well. Defined python defaults to simply `python`.
+``pyenv install``: Recursively finds `Envfile`, and bootstraps virtualenv in ``.venv`` relative to that. If Python defined isn't available, uses `python-build` to provide that as well. Defined python defaults to simply ``python``.
 
-``pyenv activate``:
-    Activates the virtualenv. Useful shortcut.
+``pyenv activate``: Activates the virtualenv. Useful shortcut.
 
-``pyenv freeze``
-    Generates `requirements.txt`, based on `Envfile`.
+``pyenv freeze``: Generates ``requirements.txt``, based on ``Envfile``.
 
-``pyenv clean``
-    Removes dependency cruft from a virtualenv.
+``pyenv clean``: Removes dependency cruft from a virtualenv.
 
-``pyenv clean --hard``
-    Rebuilds the virtualenv from scratch.
+``pyenv clean --hard``: Rebuilds the virtualenv from scratch.
 
 
 
