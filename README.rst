@@ -24,7 +24,16 @@ Possible Usage
 --------------
 
 ``pyenv install``:
-    Creates
+    Recursively finds `Envfile`, and bootstraps virtualenv in `.venv` relative to that. If Python defined isn't available, uses `python-build` to provide that as well. Defined python defaults to simply `python`.
+
+``pyenv activate``:
+    Activates the virtualenv. Useful shortcut.
+
+``pyenv clean``
+    Removes dependency cruft from a virtualenv.
+
+``pyenv clean --hard``
+    Rebuilds the virtualenv from scratch.
 
 
 
