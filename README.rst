@@ -9,5 +9,5 @@ Current status:
 Future:
 
 - python-build: bootstraps pythons
-- pyenv: defines dependencies, bootstraps virtualenvs with new pythons, generates requirements.txt (like a lockfile), allows cleaning/restarts of virtualenvs
+- pyenv: defines dependencies, installs dependencies with pip, bootstraps virtualenvs with new pythons, generates requirements.txt (like a lockfile), allows cleaning/restarts of virtualenvs
 
