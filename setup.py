@@ -15,9 +15,9 @@ APP_NAME = 'pyenv'
 VERSION = '0.0.1'
 
 
-# # Grab requirments.
-# with open('reqs.txt') as f:
-#     required = f.readlines()
+# Grab requirments.
+with open('requirements.txt') as f:
+    required = f.readlines()
 
 
 settings = dict()
@@ -38,7 +38,7 @@ settings.update(
     author_email='me@kennethreitz.com',
     url='https://github.com/kennethreitz/pyenv',
     packages= ['pyenv',],
-    # install_requires=required,
+    install_requires=required,
     license='BSD',
     classifiers=(
         # 'Development Status :: 5 - Production/Stable',
