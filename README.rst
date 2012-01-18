@@ -25,7 +25,7 @@ Possible Usage
 
 ``pyenv install``: Recursively finds `Envfile`, and bootstraps virtualenv in ``.venv`` relative to that. If Python defined isn't available, uses `python-build` to provide that as well. Defined python defaults to simply ``python``.
 
-``pyenv activate``: Activates the virtualenv. Useful shortcut.
+``pyenv init``: Activates the virtualenv. Useful shortcut.
 
 ``pyenv freeze``: Generates ``requirements.txt``, based on ``Envfile``.
 
