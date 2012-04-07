@@ -1,5 +1,5 @@
-Pyenv: Python Environment Manager
-=================================
+Envy: Python Environment Manager
+================================
 
 Current status:
 
