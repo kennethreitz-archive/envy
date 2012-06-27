@@ -10,8 +10,7 @@ except ImportError:
     from distutils.core import setup
 
 
-APP_NAME = 'pyenv'
-# APP_SCRIPT = './legit_r'
+APP_NAME = 'envy'
 VERSION = '0.0.1'
 
 
@@ -37,7 +36,7 @@ settings.update(
     author='Kenneth Reitz',
     author_email='me@kennethreitz.com',
     url='https://github.com/kennethreitz/pyenv',
-    packages= ['pyenv',],
+    packages= ['envy',],
     install_requires=required,
     license='BSD',
     classifiers=(
@@ -52,7 +51,7 @@ settings.update(
     ),
     entry_points={
         'console_scripts': [
-            'pyenv = pyenv.cli:main',
+            'pyenv = envy.cli:main',
         ],
     }
 )
