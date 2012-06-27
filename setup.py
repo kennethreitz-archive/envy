@@ -51,7 +51,7 @@ settings.update(
     ),
     entry_points={
         'console_scripts': [
-            'pyenv = envy.cli:main',
+            'envy = envy.cli:main',
         ],
     }
 )
